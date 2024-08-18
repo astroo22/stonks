@@ -1,0 +1,11 @@
+server:
+  api_key: "your_schwab_api_key_here"
+  db_conn_str: "user=your_user password=your_password dbname=your_db sslmode=disable"
+  log_level: "info"
+  port: ":8080"
+  postgres:
+    mode: "startup"  # Options: startup, load
+    data_dir: "S:\\stonkssspg16\\data"  # Path to the PostgreSQL data directory
+    binary_path: "S:\\stonkssspg16\\bin"  # Path to the PostgreSQL binaries (e.g., pg_ctl)
+    startup_params: ""  # Additional startup parameters
+    load_path: "S:\\stonkssspg16\\data" # Path to the existing PostgreSQL instance data

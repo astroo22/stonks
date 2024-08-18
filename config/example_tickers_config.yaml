@@ -1,0 +1,9 @@
+job:
+  enabled: true
+  trading_hours_only: true
+  refresh_interval_minutes: 10
+tickers:
+  - "AAPL"
+  - "GOOGL"
+  - "MSFT"
+
